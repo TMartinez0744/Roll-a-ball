@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using TMPro;
 
+
 public class PlayerController : MonoBehaviour
 {
     public float speed = 0; 
@@ -25,7 +26,6 @@ public class PlayerController : MonoBehaviour
         Vector2 movementVector = movementValue.Get<Vector2>();
         movementX = movementVector.x; 
         movementY = movementVector.y; 
-   
     }
     
     void SetCountText() 
